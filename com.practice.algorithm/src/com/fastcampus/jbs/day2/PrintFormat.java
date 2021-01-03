@@ -34,11 +34,15 @@ public class PrintFormat {
         System.out.println("Input extra Info: ");
         String s2 = scanner.nextLine();
 
+        /**
+         * I forgot how to use these
+         * printf %nd %-ns , (int), (string)
+         */
         System.out.println("*----------*----------*-----------------*");
         System.out.printf("| ID%06d | %-5s | %-10s |\n", id, s1, s2);
         System.out.println("*----------*----------*-----------------*");
 
-        scanner.close();
+
 
         /* (My solution)
         System.out.println("Welcome to KCDC.");
@@ -55,8 +59,7 @@ public class PrintFormat {
         System.out.println("*-------*-------*---------*");
         System.out.println("|" + id + "|" + s1 + "|" + s2 + "|");
         System.out.println("*-------*-------*---------*");
-
+        */
         scanner.close();
-         */
     }
 }
